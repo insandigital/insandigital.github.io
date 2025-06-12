@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID - Portofolio</title>
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="porto.css">
+    <!-- Web Icon -->
+     <link rel="icon" href="" type="image/png">
+    <!-- Google API Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tagesschrift&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar-container">
+        <div class="navbar-content">
+            <a href=""><img src="Gambar/ID Icon.png" alt="" class="id-icon"></a>
+            <i class="fa-solid fa-bars nav-btn"></i>
+            <!-- <i class="fa-solid fa-xmark nav-btn"></i> -->
+             <div class="dropdown-navbar" id="dropdown-btn">
+                <ul>
+                    <li><a href="#header-container" class="beranda-link">Beranda</a></li>
+                    <li><a href="#tentangsaya-container" class="tentang-link">Tentang</a></li>
+                    <li><a href="#keahlian-container" class="keahlian-link">Keahlian</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="header-container" id="header-container">
+        <div class="wrapper-text-btn">
+            <div class="text-container">
+                <h2 class="welcome-text">Selamat Datang!</h2>
+                <h1>Nama Saya <span class="insan-text">Insan</span></h1> 
+            </div>
+
+            <div class="btn-sosmed-container">
+                <a href="" class="button">Download CV</a>
+                <div class="icon-wrap">
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+            <img src="Gambar/img.png" alt="My Photo" class="header-photo">
+    </header>
+
+    <!-- TENTANG SAYA -->
+    <section class="tentangsaya-container" id="tentangsaya-container">
+        <div class="tentangsaya-content">
+            <div class="wrapper-text-tentangsaya">
+                <h2>Tentang <span class="text-saya">Saya</span></h2>
+                <p class="story-text">Halo! Nama saya Insan, lulusan SMK Negeri 2 Tarakan jurusan Teknik Komputer dan Jaringan (TKJ). Saya memiliki minat yang besar di bidang Teknologi Informasi dan berkomitmen untuk membangun karir yang kuat di dunia IT.</p>
+                <div class="biodata-text-wrapper">
+                    <div class="biodata-text-wrp1">
+                        <p class="biodata-text">Nama: <span>Insan</span></p>
+                        <p class="biodata-text">Age: <span>18 Tahun</span></p>
+                    </div>
+                    <div class="biodata-text-wrp2">
+                        <p class="biodata-text">Email: <span>insan.ppkia@gmail.com</span></p>
+                        <p class="biodata-text">Address: <span>Tarakan, Indonesia</span></p>
+                    </div>
+                </div>
+            </div>
+            
+            <img src="Gambar/img1.png" alt="My Photo" class="tentangsaya-photo">
+        </div>
+    </section>
+
+    <!-- KEAHLIAN -->
+     <section class="keahlian-container" id="keahlian-container">
+        <h2 class="keahlian-text">Keahlian</h2>
+        <div class="card-container">
+            <div class="card uix">
+                <i class="fa-solid fa-paintbrush card-icon"></i>
+                <span class="card-text">UI/UX Web Design</span>
+            </div>
+            <div class="card web-dev">
+                <i class="fa-solid fa-code card-icon"></i>
+                <span class="card-text webdev-text">Website Development</span>
+            </div>
+        </div>
+     </section>
+
+     <!-- FOOTER -->
+      <footer>
+        <p>&copy; 2025 Insan. All rights reserved</p>
+      </footer>
+
+      <script src="script.js"></script>
+</body>
+</html>
