@@ -351,7 +351,7 @@ footer{
 
     nav ul li a{
         position: relative;
-        padding-bottom: 23px;
+        padding-bottom: 24px;
     }
 
     ul li a::after{
@@ -451,6 +451,11 @@ footer{
     .card-container .card{
         padding-top: 50px;
         gap: 40px;
+        transition: ease 0.2s;
+    }
+
+    .card-container .card:hover{
+        box-shadow: 0 0 5px 10px #DA0037;
     }
 
     .card-icon{
